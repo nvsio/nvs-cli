@@ -1,14 +1,29 @@
 {
   "name": "nvs-cli",
   "version": "0.1.0",
+  "description": "Symlink your configs across machines in seconds",
   "type": "module",
   "bin": {
     "nvs": "./src/cli.tsx"
   },
+  "files": [
+    "src"
+  ],
   "scripts": {
     "dev": "bun run src/cli.tsx",
     "build": "bun build src/cli.tsx --outdir dist --target node"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvsio/nvs-cli.git"
+  },
+  "keywords": [
+    "dotfiles",
+    "symlink",
+    "config"
+  ],
+  "author": "Nikhil Srinivasan",
+  "license": "MIT",
   "dependencies": {
     "ink": "^5.0.1",
     "ink-spinner": "^5.0.0",

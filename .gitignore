@@ -1,0 +1,6 @@
+node_modules/
+dist/
+--nvs/
+CLAUDE.md
+.DS_Store
+*.log

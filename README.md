@@ -7,7 +7,7 @@
  ╚═╝  ╚═══╝  ╚═══╝  ╚══════╝
 ```
 
-Dotfiles manager with a modern TUI.
+Symlink your configs across machines in seconds.
 
 ## Install
 
@@ -18,17 +18,10 @@ bun install -g nvs-cli
 ## Usage
 
 ```bash
-nvs                     # Initialize dotfiles
-nvs init ~/dotfiles     # Use specific path
-nvs add user/repo       # Add from GitHub
+nvs                     # Interactive setup
+nvs init ~/dotfiles     # Point to your configs
+nvs add user/repo       # Pull from GitHub
 ```
-
-## Features
-
-- Auto-detects existing dotfiles
-- Clones from GitHub
-- Handles conflicts with backup
-- Tracks linked files in `~/.nvs/config.json`
 
 ## License
 
